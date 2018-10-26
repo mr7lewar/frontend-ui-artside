@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'DINCyr';
+    src: url('../fonts/dincyr-regular.eot');
+    src: url('../fonts/dincyr-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dincyr-regular.woff') format('woff'),
+    url('../fonts/dincyr-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LightAlternate';
+    src: url('../fonts/DIN LightAlternate Regular.otf');
+    font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url('../gallery/bg-body.jpg')repeat 0 0;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	height: 100%;
+	line-height: normal;
+	cursor: default;
+}
+	
+
+
+h2 {
+	font-family: 'DINCyr', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 0 0 20px;
+	line-height: normal;
+    font-weight: normal;
+
+}
+
+p {
+	padding: 0 0 15px;
+
+}
+
+a {
+	color: #707070;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+ul li {
+	list-style: none;
+}
+
+.wrapper {
+	width: 1000px;
+    height: auto;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+	padding-top: 44px;
+}
+
+.header img {
+	display: block;
+    width: 100px;
+    height: auto;
+}
+
+.header .phone {
+	display: block;
+	text-align: right;
+    font-family: 'LightAlternate', 'Arial', sans-serif;
+    color:  #707070;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: none;
+}
+.header .phone .font-phone{
+    display: block;
+	font-size: 30px;
+}
+
+.footer {
+	box-sizing: border-box;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid;
+    height: 75px;
+    padding: 40px 20px 0;
+    font-size: 11px;
+    font-family: 'DINCyr', Arial, sans-serif;
+}
