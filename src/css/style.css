@@ -37,7 +37,9 @@ h2 {
 	font-weight: 300;
 	margin-bottom: 0 0 20px;
 	line-height: normal;
-    font-weight: normal;
+	font-weight: normal;
+	color: #707070;
+	text-transform: uppercase;
 
 }
 
@@ -67,6 +69,7 @@ ul li {
     margin: 0 auto;
 }
 
+
 .header {
 	padding-top: 44px;
 }
@@ -92,14 +95,39 @@ ul li {
 	font-size: 30px;
 }
 
+.main-menu {
+	display: block;
+}
+
+.menu .menu-items {
+	margin-top: 90px;
+	font-size: 40px;
+	line-height: 44px;
+	font-family: 'DINCyr', Arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: inherit;
+}
+
+.main-menu .menu-items a:hover{
+    background-color: #707070;
+    color: #ffffff;
+	cursor: pointer;
+}
+
+.content {
+	width: 1000px;
+	margin-left: auto;
+}
+
+
 .footer {
+	margin-right: auto;
 	box-sizing: border-box;
     position: relative;
     width: 1000px;
     margin: 0 auto;
     border-top: 1px solid;
     height: 75px;
-    padding: 40px 20px 0;
     font-size: 11px;
-    font-family: 'DINCyr', Arial, sans-serif;
+	font-family: 'DINCyr', Arial, sans-serif;
 }
