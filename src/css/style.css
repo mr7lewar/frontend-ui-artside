@@ -135,7 +135,7 @@ a {
   margin-right: 100px;
 }
 
-.page-main .article:first-child {
+.about .article:first-child {
   margin-bottom: 44px;
 }
 
@@ -143,11 +143,11 @@ a {
   margin-bottom: 22px;
 }
 
-.page-main .teams {
+.about .teams {
   display: inline-block;
 }
 
-.page-main .team {
+.about .team {
   display: inline-block;
   vertical-align: top;
   width: 230px;
@@ -155,11 +155,11 @@ a {
   margin-left: 18px;
 }
 
-.page-main .team:nth-child(3n+1) {
+.about .team:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.page-main .teams .photo {
+.about .teams .photo {
   width: 78px;
   height: 78px;
   background-color: #333333;
@@ -180,12 +180,12 @@ a {
   margin: auto;
 }
 
-.page-main .persons li {
+.about .persons li {
   display: flex;
   margin-bottom: 16px;
 }
 
-.page-main .persons li:last-child {
+.about .persons li:last-child {
   margin-bottom: 0;
 }
 
