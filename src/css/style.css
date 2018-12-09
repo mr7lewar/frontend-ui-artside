@@ -188,9 +188,6 @@ a {
 .about .persons li:last-child {
   margin-bottom: 0;
 }
-
-/*==============================Footer===============================*/
-
 .footer {
   width: 1000px;
   margin: -100px auto 0;
