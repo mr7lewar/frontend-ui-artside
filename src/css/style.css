@@ -1,188 +1,197 @@
 @font-face {
-	font-family: 'DINCyr';
-    src: url('../fonts/dincyr-regular.eot');
-    src: url('../fonts/dincyr-regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/dincyr-regular.woff') format('woff'),
-    url('../fonts/dincyr-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'DINCyr';
+  src: url('../fonts/dincyr-regular.eot');
+  src: url('../fonts/dincyr-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/dincyr-regular.woff') format('woff'), url('../fonts/dincyr-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'LightAlternate';
-    src: url('../fonts/DIN LightAlternate Regular.otf');
-    font-weight: normal;
-	font-style: normal;
+  font-family: 'LightAlternate';
+  src: url('../fonts/DIN LightAlternate Regular.otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background: url('../gallery/bg-body.jpg')repeat 0 0;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 11px;
-	width: 100%;
-	height: 100%;
-	line-height: normal;
-	cursor: default;
-	color: #363636;
+  background-image: url("../gallery/bg-body.jpg");
+  font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: 11px;
+  line-height: normal;
+  color: #363636;
+  cursor: default;
+  width: 100%;
+  height: 100%;
 }
-	
+
 h2 {
-	font-family: 'DINCyr', Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	margin-bottom: 0 0 20px;
-	line-height: normal;
-	font-weight: normal;
-	color: #707070;
-	text-transform: uppercase;
+  font-family: 'DINCyr', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 20px;
 }
 
 p {
-	padding: 0 0 15px;
+  margin: 0 0 15px;
 }
 
 p:last-of-type {
-	margin: 0;
-}
-
-a {
-	color: #707070;
-	text-decoration: none;
+  margin: 0;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 ul li {
-	list-style: none;
+  list-style: none;
 }
 
 .wrapper {
-	width: 1000px;
-    height: auto;
-    min-height: 100%;
-    margin: 0 auto;
+  width: 1000px;
+  height: auto;
+  min-height: 100%;
+  margin: 0 auto;
 }
 
+a {
+  color: #707070;
+}
 
 .header {
-	padding-top: 44px;
-	justify-content: space-between;
-    align-items: flex-end;
-    box-sizing: border-box;
-	margin-bottom: 100px;
-	padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 44px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
 }
 
 .header img {
-	display: block;
-    width: 100px;
-    height: auto;
+  display: block;
+  width: 100px;
+  height: auto;
 }
 
 .header .phone {
-	display: block;
-	text-align: right;
-    font-family: 'LightAlternate', 'Arial', sans-serif;
-    color:  #707070;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 26px;
-    text-decoration: none;
-}
-.header .phone .font-phone{
-    display: block;
-	font-size: 30px;
+  display: block;
+  font-family: 'LightAlternate', 'Arial', sans-serif;
+  color: #707070;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-decoration: none;
 }
 
-.main-menu {
-	display: block;
+.header .phone .font-phone {
+  display: block;
+  font-size: 30px;
 }
 
-.menu .main-menu .menu-items {
-	font-size: 40px;
-	line-height: 38px;
-	font-family: 'DINCyr', Arial, sans-serif;
-	text-transform: uppercase;
-	display: inline-block;
-    height: 42px;
-	vertical-align: middle;
-	text-decoration: none;
-	color:#363636;
+.main-menu .menu-items {
+  display: block;
 }
 
-.main-menu .menu-items a:hover{
-    background-color: #707070;
-    color: #ffffff;
-	cursor: pointer;
+.main-menu .menu-item a {
+  font-family: 'DINCyr', 'Arial', sans-serif;
+  font-size: 40px;
+  line-height: 38px;
+  color: #363636;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height: 42px;
+  vertical-align: middle;
+}
+
+.main-menu .menu-item a:hover {
+  background-color: #707070;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .content {
-	padding-bottom: 100px;
-	width: 100%;
-	margin-bottom: 100px;
-	display: flex;
-	justify-content: space-between;
-	height: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-bottom: 56px;
 }
 
-.menu {
-	margin-right: 100px;
-}
-.content .about .ourteam {
-	margin-bottom: 22px;
-}
-.about .teams{ 
-    display: flex;
-    justify-content: flex-start;
-	flex-wrap: wrap;
+.content:after {
+  display: table;
+  clear: both;
+  content: '';
 }
 
-.about .ourteam {
-	margin-bottom: 22px;
-	margin-left:18px;
-	
+.sidebar {
+  margin-right: 100px;
 }
 
-.about .teams .photo {
-	margin-left: 12px;
-	position: relative;
-	width: 78px;
-	height: 78px;
-	overflow: hidden;	
-	display: flex;
-    margin-bottom: 16px;
+.page-main .article:first-child {
+  margin-bottom: 44px;
 }
 
-.about .teams img {
-	display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    max-height: 100%;
-    width: auto;
-    left: -100%;
-    right: -100%;
-    margin: auto;
+.content .page-main .teams {
+  margin-bottom: 22px;
 }
 
-.attachment.item-name {
-	width: 136px;
+.page-main .teams {
+  display: inline-block;
 }
 
-.about .ourteam .attachment {
-	display: flex;
-    margin-bottom: 16px;
+.page-main .team {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin-bottom: 22px;
+  margin-left: 18px;
 }
 
-footer {
+.page-main .team:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.page-main .teams .photo {
+  width: 78px;
+  height: 78px;
+  background-color: #333333;
+  position: relative;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.page-main .teams img {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+  width: auto;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+}
+
+.page-main .persons li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.page-main .persons li:last-child {
+  margin-bottom: 0;
+}
+
+/*==============================Footer===============================*/
+
+.footer {
   width: 1000px;
   margin: -100px auto 0;
   height: 100px;
@@ -195,16 +204,16 @@ footer {
   line-height: 15px;
 }
 
-footer .copyright {
+.footer .site {
   display: inline-block;
   margin-right: -5px;
 }
 
-footer .copyright .linksite {
+.footer .site .link-site {
   text-decoration: none;
 }
 
-footer .footerlink {
+.footer .footer-link {
   display: inline-block;
   vertical-align: top;
   margin-left: 20px;
